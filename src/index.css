@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    font-family: Lato;
+}
+body{
+  /* background-image: url("/bg.jpg"); */
+  background: url("/bg.png");
+  /* background-position: center; */
+  background-size: contain;
+  object-fit: contain;
+  object-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(255,255,255,0.2);
+  /* background-color: rgba(17, 25, 40, 0.75); */
+  backdrop-filter: blur(20px) ;
+  border-radius: 12px;
+  display:flex;
+  overflow: hidden;
+}
+.Toastify__toast--warning {
+  background: rgba(0,0,0,0.4) !important;
+}
+.Toastify__toast--error {
+  background: rgba(0,0,0,0.4) !important;
+}
+.Toastify__toast--success {
+  background: rgba(0,0,0,0.4) !important;
+}
+.Toastify__toast--info {
+  background: rgba(0,0,0,0.4) !important;
+}
+.loading-notification{
+  background: rgba(0,0,0,0.4);
+}
+.loading1{
+  padding: 30px;
+  font-size: 36px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255,0.4);
+}
+.chatcom{
+  background: white;
+}
+
+
+@media only screen and (max-width:900px) {
+  .detail{
+    display: none;
+    background-color: azure;
+  }
+  .chat{
+    /* display:none; */
+    width: 100%;
+  }
+  .list{
+    display: flex;
+  }
+}
+

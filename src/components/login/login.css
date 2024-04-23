@@ -1,0 +1,79 @@
+.Login{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    /* background-color: aqua; */
+    .item{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            input{
+                padding: 12px 25px;
+                border: none;
+                outline: none;
+                background: rgba(255,255,255,0.4);
+                border-radius: 10px;
+                color: white;
+            }
+            label{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+                justify-content: space-between;
+                cursor: pointer;
+                /* text-decoration: underline; */
+                border: 2px solid #dddddd35;
+                padding: 20px 15px;
+                border-radius: 10px;
+                img{
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 10px;
+                    object-fit:cover ;
+                    /* opacity: 0.7; */
+                }
+            }
+            button{
+                width: 80%;
+                padding: 10px;
+                border: none;
+                background-color: black;
+                color: aliceblue;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: .3s;
+
+                &:disabled{
+                    cursor: not-allowed;
+                    background-color: black;
+                }
+            }
+            button:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+    .separator{
+        height: 70%;
+        width: 3px;
+        background-color: #dddddd35;
+    }
+}

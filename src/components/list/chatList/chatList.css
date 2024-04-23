@@ -1,0 +1,148 @@
+.chatList {
+    display: flex;
+    flex-direction: column;
+
+    .search {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+
+        .searchBar {
+            flex: 1;
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.4);
+            align-items: center;
+            border-radius: 10px;
+            padding: 10px;
+            gap: 20px;
+
+            input {
+                background-color: transparent;
+                border: none;
+                color: white;
+                /* height: 100%; */
+                border: none;
+                outline: none;
+                flex: 1;
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .searchBar:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .add {
+            width: 37x;
+            height: 37px;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.4);
+            transition: .2s;
+        }
+
+        .add:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: flex-start;
+        padding: 15px;
+        border-bottom: 2px solid #dddddd35;
+        cursor: pointer;
+        padding-left: 25px;
+
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+
+        }
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            span {
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 13px;
+                font-weight: 400;
+            }
+        }
+
+        transition: 0.1s;
+    }
+
+    .item:hover {
+        transform: scale(1.03);
+    }
+
+    .item:active {
+        background-color: black;
+    }
+
+    #ai {
+        img {
+            border-radius: 5px;
+            animation: rotate-animation 10s infinite linear;
+        }
+
+    }
+    .cancel-box{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 100vh;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: end;
+        align-items: baseline;
+        padding: 20px 10px;
+        .cancel{
+            padding: 10px 14px;
+            color: black;
+            font-weight: 600;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            &:hover{
+                transform: scale(1.05);
+                
+            }
+        }
+    }
+
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
