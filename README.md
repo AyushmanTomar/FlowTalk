@@ -16,7 +16,7 @@ Welcome to FlowTalk, the social media app that connects you effortlessly! Built 
 To get started with FlowTalk, clone this repository to your local machine:
 
 \`\`\`bash
-git clone https://github.com/yourusername/flowtalk.git
+git clone https://github.com/AyushmanTomar/flowtalk.git
 \`\`\`
 
 Install the necessary dependencies:
