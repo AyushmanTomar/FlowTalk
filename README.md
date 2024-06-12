@@ -50,7 +50,7 @@ Site Link:  https://flowtalk.netlify.app/
  
 Project Link: https://github.com/AyushmanTomar/flowtalk
 
-### ScreenShot
+### ScreenShots
 
 ![1](https://github.com/AyushmanTomar/FlowTalk/blob/main/login%20signup.png)
 ![2](https://github.com/AyushmanTomar/FlowTalk/blob/main/landing%20page.png)
