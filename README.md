@@ -53,4 +53,5 @@ Project Link: https://github.com/AyushmanTomar/flowtalk
 ### ScreenShot
 
 ![1](https://github.com/AyushmanTomar/FlowTalk/blob/main/login%20signup.png)
-![2](https://github.com/AyushmanTomar/FlowTalk/blob/main/chat%20interface.png)
+![2](https://github.com/AyushmanTomar/FlowTalk/blob/main/landing%20page.png)
+![3](https://github.com/AyushmanTomar/FlowTalk/blob/main/chat%20interface.png)
